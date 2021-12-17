@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(13, 26, 45);
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(21, 39, 63);
+    margin-left: 40%;
+    margin-right: 40%; 
+    border-radius: 7px;
+    outline: 20px solid rgb(12, 23, 41);
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    padding: 10px;
+}
+.container h4 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+.container p {
+    font-family: 'Outfit', sans-serif;
+    color: rgb(143, 170, 207);
+}
+.main-img {
+    width: 85%;
+    border-radius: 7px;
+    margin-top: 20px;
+    align-self: center;
+    background: none;
+}
+.main-img:hover {
+    opacity: 0.3;
+    background: greenyellow;
+}
+.daysLeft {
+    display: flex;
+    flex-direction: row;
+}
+.daysLeft svg {
+    margin-top: 24px;
+}
+.eth {
+    display: flex;
+    flex-direction: row;
+}
+.daysLeft {
+    display: flex;
+    flex-direction: row;
+}
+.daysRight {
+    margin-left: 17%;
+}
+#eth {
+    color: rgb(22, 254, 252);
+    margin-left: 6px;
+    
+}
+#daysLeft {
+    color: rgb(138, 174, 216);
+    margin-left: 6px;
+    
+}
+.avatar {
+    display: flex;
+    flex-direction: row;
+}
+#avatar {
+    width: 15%;
+    border-radius: 80%;
+    border: 1px solid white;
+}
+.avatar-line {
+    margin-bottom: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: smaller;
+}
+#name {
+    color: white;
+}
+#line {
+    color: rgb(143, 170, 207);
+}
+.hover-text:hover {
+    color: rgb(22, 254, 252);
+}
+
+
+
